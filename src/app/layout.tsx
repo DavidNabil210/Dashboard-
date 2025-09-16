@@ -41,7 +41,7 @@ export default function RootLayout({
 
             <AppSidebar />
             <main className="w-full">
-              <SidebarTrigger />
+              {/* <SidebarTrigger /> */}
 
               <Navbar />
               <div className="px-4">{children}</div>

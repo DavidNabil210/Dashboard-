@@ -7,6 +7,7 @@ import Link from "next/link"
 import React from 'react'
 import { Button } from "./ui/button"
 import { useTheme } from "next-themes"
+import { SidebarTrigger } from "./ui/sidebar";
 
 
 export const Navbar = () => {
@@ -15,7 +16,8 @@ export const Navbar = () => {
   return (
     <nav className='p-4 flex items-center justify-between'>
       {/* left */}
-      collapseButton
+      {/* collapseButton */}
+      <SidebarTrigger/>
       {/* right */}
       <div className="flex items-center gap-4">
         <Link href="/">Dashboard</Link>
